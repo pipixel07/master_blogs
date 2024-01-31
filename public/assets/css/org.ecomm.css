@@ -1,0 +1,765 @@
+
+/* E commerce development in india page */
+
+* {
+    font-family: 'Poppins';
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+p{
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+}
+h1{
+	font-weight: 600;
+	font-size: 58px;
+	line-height: 70px;
+	text-transform: uppercase;
+}
+h2{
+	font-weight: 600;
+	font-size: 48px;
+	line-height: 58px;
+	text-transform: uppercase;
+}
+h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#ecom {
+    position: relative;
+    /* height: 100vh; */
+    color: #000000;
+}
+
+#ecom > div {
+    background: #f1f1f1;
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0%, 100% 65%, 0% 100%);
+}
+
+#ecom .e-web h1{
+
+    color:black !important;
+}
+
+#ecom .e-desk {
+    position: absolute;
+    bottom: -5rem;
+    right: 0;
+    width: auto;
+}
+
+#ecom .e-mob {
+    display:none
+}
+
+.ecom-diff-info p{
+
+    color:white;
+}
+
+#ecom .e-web {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 11rem 7rem 16rem 12rem;
+    height: 100%;
+}
+
+#ecom .e-web h4 {
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 50px;
+    color: #000000;
+    margin: 10px 0px;
+}
+
+#ecom .e-web p {
+    padding: 2rem 0rem 5rem;
+}
+
+
+#e-part {
+    position: relative;
+}
+
+#e-part .desk {
+    position: absolute;
+    bottom: 0px;
+    left: 6%;
+}
+
+#e-part .mob {
+    display:none
+}
+
+#e-part .e-partner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+	color:#000;
+	height:100%
+}
+
+#e-part .e-partner > div{
+    width: 50%;
+    padding: 14rem 13rem 7% 0rem;
+}
+
+#e-part .e-partner h2 {
+    padding-bottom: 30px;
+}
+
+#e-part .e-partner p {
+    padding-right: 40px;
+}
+
+#e-black {
+    background: #303030;
+    /* color: #fff; */
+    padding: 8rem 25rem;
+    text-align: center;
+}
+
+#e-black h2 {
+    color: #fff;
+}
+
+#e-black p {
+    padding: 1rem 12rem 0px;
+}
+
+#e-black p{
+
+    color:#fff;
+}
+
+.ecom-ser-list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 12rem 5rem 12rem;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.ecom-ser-box {
+    background: #eeeeee;
+    width: 49%;
+    margin-bottom: 30px;
+    padding: 4rem 0px 0px;
+    flex-direction: column;
+    display: flex;
+}
+
+.ecom-ser-box img {
+    /* width: 100%; */
+}
+
+.ecom-ser-box p {
+    margin: 20px 6rem;
+    text-align: center;
+}
+
+.ecom-ser-box a {
+    background: #f05123;
+    color: #fff;
+    text-decoration: none;
+    height: 50px;
+    position: relative;
+    min-width: 225px;
+    width: 225px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1rem;
+}
+
+#e-store {
+    padding: 4rem 12rem 5rem;
+    text-align: center;
+}
+
+.e-store-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.e-store-box {
+    background: #eeeeee;
+    width: 32%;
+    margin: 6px;
+    padding: 6rem 3rem;
+}
+
+.e-store-box img {
+    padding-bottom: 20px;
+}
+
+#ecom-diff {
+    position: relative;
+    margin: 2rem 0px;
+}
+
+#ecom-diff img {
+    width: 100%;
+}
+
+.ecom-diff-info {
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    width: 60%;
+    background: #f05123;
+    padding: 5rem 10rem  5rem  12rem;
+    color: #fff;
+}
+
+.ecom-diff-info h2 {
+    padding-bottom: 1rem;
+    color:white;
+}
+
+.ecom-diff-info p {
+    padding-bottom: 1rem;
+}
+
+#ecom-project {
+    padding: 6rem 12rem 6rem;
+    text-align: center;
+}
+
+.project-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 0rem 0rem;
+}
+.project-list img {
+    width: 50%;
+}
+.project-list > div {
+    width: 44%;
+    text-align: left;
+    padding: 0px 8rem 0rem 2rem;
+}
+.project-list > div h3 {
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+
+@media screen and (max-width: 767px) {
+h1{
+font-size: 32px;
+line-height: 38px;
+}	
+
+h2{
+	font-size: 24px;
+	line-height: 29px;
+}
+
+h3{
+	font-size: 18px;
+	line-height: 27px;
+}
+
+p{
+	font-size: 14px;
+    line-height: 21px;
+}
+
+#ecom > div {
+    clip-path: none;
+}
+
+#ecom .e-web {
+    width: 100%;
+    padding: 6rem 1rem 3rem 1rem;
+}
+
+#ecom .e-web h4{
+	font-size: 24px;
+	line-height: 29px;
+}
+
+#ecom .e-web p {
+    padding: 1rem 0rem 0rem;
+}
+
+#ecom .e-desk {
+    display: none;
+}
+
+#ecom .e-mob {
+    display: block;
+}
+
+#ecom .e-web a {
+    font-size: 16px;
+    line-height: 27px;
+    width: 95%;
+	margin: 2rem 0rem 0rem;
+}
+
+#e-part .e-partner > div {
+    width: 100%;
+    padding: 4rem 1rem 0% 1rem;
+}
+
+#e-part .desk {
+    display:none
+}
+
+#e-part .mob {
+    display: block;
+    float: right;
+    width: 72%;
+    padding: 14px 1px 0px 18px;
+    shape-outside: circle();
+    margin: 18px -15px 0px 15px;
+    position: relative;
+}
+
+#e-part .e-partner p {
+    padding-right: 0px;
+}
+
+#e-black {
+    padding: 3rem 1rem;
+	text-align: left;
+}
+
+#e-black p {
+    padding: 1rem 0rem 0px;
+}
+
+.ecom-ser-list {
+    padding: 3rem 1rem 2rem 1rem;
+	text-align: left;
+}
+
+.ecom-ser-box {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 2rem 0px 0px;
+}
+
+.ecom-ser-box p {
+    margin: 20px 1rem 0px;
+    text-align: center;
+}
+
+.ecom-ser-box a {
+    background: #f05123;
+    color: #fff;
+    text-decoration: none;
+    height: 45px;
+    position: relative;
+    min-width: 190px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px auto 1rem;
+}
+
+#e-store {
+    padding: 2rem 1rem 3rem;
+    text-align: center;
+}
+
+.e-store-list {
+    margin-top: 3rem;
+}
+
+.e-store-box {
+    width: 100%;
+    margin: 6px 0px;
+    padding: 3rem 2rem;
+}
+
+#ecom-diff {
+    position: relative;
+    margin: 0rem 0px;
+}
+
+.ecom-diff-info {
+    position: relative;
+    bottom: 7px;
+    width: 100%;
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+#ecom-project {
+    padding: 2rem 1rem 2rem;    text-align: left;
+}
+
+.project-list {
+    padding: 2rem 0rem 0rem;
+    flex-direction: column;
+}
+
+.project-list img {
+    width: 100%;
+}
+
+.project-list > div {
+    width: 100%;
+    text-align: left;
+    padding: 0px 0rem 0rem 0rem;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) { 
+
+h1{
+font-size: 44px;
+line-height: 52px;
+}	
+
+h2{
+	font-size: 30px;
+	line-height: 36px;
+}
+
+h3{
+	font-size: 20px;
+	line-height: 24px;
+}
+
+p{
+	font-size: 14px;
+    line-height: 21px;
+}
+
+#ecom .e-web {
+    width: 80%;
+    padding: 6rem 1rem 12rem 2rem;
+    height: 100%;
+}
+
+#ecom > div {
+    clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
+}
+
+#ecom .e-web h4 {
+    font-size: 25px;
+    line-height: 32px;
+    margin: 10px 0px;
+}
+
+#ecom .e-desk {
+    position: absolute;
+    bottom: -5rem;
+    right: 0;
+    width: 64%;
+}
+
+#e-part .desk {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 50%;
+}
+
+#e-part .e-partner > div {
+    width: 50%;
+    padding: 10rem 2rem 5% 0rem;
+}
+
+#e-part .e-partner p {
+    padding-right: 0px;
+}
+
+#e-black {
+    padding: 4rem 2rem;
+}
+
+#e-black p {
+    padding: 1rem 3rem 0px;
+}
+.ecom-ser-list {
+    padding: 3rem 2rem 2rem 2rem;
+}
+.ecom-ser-box {
+    padding: 2rem 15px 0px;
+}
+.ecom-ser-box p {
+    margin: 15px 0px 0rem;
+    text-align: center;
+}
+.ecom-ser-box a {
+    height: 45px;
+    min-width: 190px;
+    width: 190px;
+    margin: 15px auto 1rem;
+}
+#e-store {
+    padding: 2rem 2rem 3rem;
+}
+.e-store-list {
+    margin-top: 3rem;
+}
+.e-store-box {
+    background: #eeeeee;
+    width: 31%;
+    margin: 6px;
+    padding: 2rem 1rem;
+}
+#ecom-project {
+    padding: 3rem 2rem 3rem;
+    text-align: center;
+}
+#ecom-diff {
+    position: relative;
+    margin: 0rem 0px;
+}
+.ecom-diff-info {
+    position: relative;
+    bottom: 7px;
+    width: 100%;
+    padding: 2rem 1rem 1rem 1rem;
+}
+.project-list {
+    padding: 2rem 0rem 0rem;
+}
+.project-list > div {
+    width: 44%;
+    text-align: left;
+    padding: 0px 0rem 0rem 1rem;
+}
+
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+
+
+h1{font-size: 50px;line-height: 60px;}	
+h2{
+	font-size: 35px;
+	line-height: 42px;
+}
+h3{
+	font-size: 22px;
+	line-height: 27px;
+}
+p{
+	font-size: 14px;
+    line-height: 21px;
+}
+
+
+#ecom .e-web {
+    width: 56%;
+    padding: 6rem 1rem 12rem 3rem;
+    height: 100%;
+}
+#ecom > div {
+    clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
+}
+#ecom .e-web h4 {
+    font-size: 25px;
+    line-height: 32px;
+    margin: 10px 0px;
+}
+#ecom .e-desk {
+    position: absolute;
+    bottom: -1rem;
+    right: 0;
+    width: 54%;
+}
+#e-part .desk {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 42%;
+}
+#e-part .e-partner > div {
+    width: 52%;
+    padding: 10rem 3rem 5% 0rem;
+}
+#e-part .e-partner p {
+    padding-right: 0px;
+}
+#e-black {
+    padding: 4rem 3rem;
+}
+#e-black p {
+    padding: 1rem 3rem 0px;
+}
+.ecom-ser-list {
+    padding: 3rem 3rem 2rem 3rem;
+}
+.ecom-ser-box {
+    padding: 2rem 15px 0px;
+}
+.ecom-ser-box p {
+    margin: 15px 0px 0rem;
+    text-align: center;
+}
+.ecom-ser-box a {
+    height: 45px;
+    min-width: 190px;
+    width: 190px;
+    margin: 15px auto 1rem;
+}
+#e-store {
+    padding: 2rem 2rem 3rem;
+}
+.e-store-list {
+    margin-top: 3rem;
+}
+.e-store-box {
+    background: #eeeeee;
+    width: 31%;
+    margin: 6px;
+    padding: 2rem 1rem;
+}
+#ecom-project {
+    padding: 3rem 3rem 3rem;
+    text-align: center;
+}
+#ecom-diff {
+    position: relative;
+    margin: 0rem 0px;
+}
+.ecom-diff-info {
+    bottom: 7px;
+    width: 60%;
+    padding: 2rem 2rem 1rem 2rem;
+}
+.project-list {
+    padding: 3rem 0rem 0rem;
+}
+.project-list > div {
+    width: 44%;
+    text-align: left;
+    padding: 0px 0rem 0rem 1rem;
+}	
+	
+}
+
+
+@media screen and (min-width: 1366px) and (max-width: 1600px) {
+
+
+h1{font-size: 55px;line-height: 66px;}	
+h2{
+	font-size: 42px;
+	line-height: 52px;
+}
+h3{
+	font-size: 24px;
+	line-height: 29px;
+}
+p{
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+#ecom .e-web {
+    width: 56%;
+    padding: 9rem 1rem 12rem 3rem;
+    height: 100%;
+}
+#ecom > div {
+    clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
+}
+#ecom .e-web h4 {
+    font-size: 25px;
+    line-height: 32px;
+    margin: 10px 0px;
+}
+#ecom .e-desk {
+    position: absolute;
+    bottom: -4rem;
+    right: 0;
+    width: 48%;
+}
+#e-part .desk {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 36%;
+}
+#e-part .e-partner > div {
+    width: 52%;
+    padding: 13rem 8rem 6% 0rem;
+}
+#e-part .e-partner p {
+    padding-right: 0px;
+}
+#e-black {
+    padding: 7rem 14rem;
+}
+#e-black p {
+    padding: 2rem 3rem 0px;
+}
+.ecom-ser-list {
+    padding: 4rem 7rem 4rem 7rem;
+}
+.ecom-ser-box {
+    padding: 3rem 20px 0px;
+}
+.ecom-ser-box p {
+    margin: 15px 0px 0rem;
+    text-align: center;
+}
+.ecom-ser-box a {
+    height: 45px;
+    min-width: 190px;
+    width: 190px;
+    margin: 15px auto 1rem;
+}
+#e-store {
+    padding: 2rem 7rem 7rem;
+}
+.e-store-list {
+    margin-top: 3rem;
+}
+.e-store-box {
+    background: #eeeeee;
+    width: 32%;
+    margin: 6px;
+    padding: 5rem 1rem;
+}
+#ecom-project {
+    padding: 5rem 7rem 5rem;
+    text-align: center;
+}
+#ecom-diff {
+    position: relative;
+    margin: 0rem 0px;
+}
+.ecom-diff-info {
+    bottom: 7px;
+    width: 60%;
+    padding: 2rem 4rem 2rem 5rem;
+}
+.project-list {
+    padding: 3rem 0rem 0rem;
+}
+.project-list > div {
+    width: 44%;
+    text-align: left;
+    padding: 0px 0rem 0rem 1rem;
+}	
+	
+	
+	
+	
+}

@@ -1,0 +1,793 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    font-family: 'Poppins';
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+/* :root {
+    --main-pad: 0rem 15rem;
+} */
+/* a{text-decoration:none}
+a:hover{text-decoration:none}
+.iti__flag-container {
+    padding: 18px 3px !important;
+}
+input {
+    height: 50px !important;
+} */
+/* .title {
+    display: block;
+    text-align: center;
+    padding: 2rem 0px;
+} */
+/* .title h2 {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+} */
+/* .title h2 span {
+    color: #f05123;
+    font-weight: 600;
+} */
+
+#web-page h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #f05123;
+}
+/* h3 {
+    color: #303030;
+    font-weight: 600;
+    line-height: 35px;
+}
+ p {
+    font-size: 16px;
+    color: #7b7b7b;
+    padding: 10px 0px;
+    font-weight: 500;
+	margin-bottom: 0px !important;
+} */
+.left-side .button {
+    margin-top: 40px;
+}
+/*------------------banner----------------*/
+.ban-file {
+    padding: 0rem 0rem 0rem 10rem;
+    display: flex;
+    align-items: center;
+}
+#banner-head {
+    height: 100vh;
+    padding: 0px 0px;
+}
+#banner-head .left-side {
+    padding: 0px 12rem 0px 0px;
+    width: 50%;
+}
+#banner-head .right-side img {
+    width: 100%;
+}
+#banner-head .right-side {
+    width: 50%;
+}
+.left-side p {
+    font-size: 21px;
+    color:  #555555;
+    line-height: 1.4;
+    padding: 3rem 0px;
+}
+.left-side {
+    padding: 0px 40px;
+	width: 40%;
+}
+.left-side a, .business-serv-list a, .build-comp div a, #call a, .tab-wb-content a , .prime a{
+    text-decoration: none;
+    color: #303030;
+    border: 1px solid #303030;
+    padding: 8px 3px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 53px;
+    transition:0.3s ease-in-out;
+    display: inline-block;
+    width: 180px;
+    text-align: center;
+}
+.left-side a:hover, .business-serv-list a:hover, .build-comp div a:hover, .tab-wb-content a:hover, .prime a:hover{ 
+    background-color: #f05123;
+    color: #fff !important;
+    border:1px solid #f05123; text-decoration:none
+}
+.right-side {
+    width: 60%;
+}
+.btn-header a {
+    text-decoration: none;
+    border: 1px solid #303030;
+    padding: 5px 10px;
+    color: #303030;
+}
+.btn-header {
+    margin-top: 100px;
+}
+
+/*------------------anroid-app----------------*/
+
+#business-serv {
+    padding: var(--main-pad);
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+
+.business-serv {
+    padding: 3rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    JUSTIFY-CONTENT: center;
+    row-gap: 3rem;
+    column-gap: 2rem;
+}
+
+.business-serv-list {
+    WIDTH: 23%;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    display: grid;
+    align-items: end;
+    row-gap: .5rem;
+}
+
+.business-serv-list div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 1rem;
+}
+.business-serv-list div h3 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.4;
+    width: 70%;
+}
+.business-serv-list:hover a{ 
+    background-color: #f05123;
+    color: #fff;
+    border:1px solid #f05123;
+}
+
+#build {
+    padding: var(--main-pad);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    position: relative;
+    background: linear-gradient(273.93deg, rgba(240, 81, 35, 0.12) -51.04%, #F05123 108.7%);
+}
+.build-comp {
+    display: flex;
+    align-items: center;
+    column-gap: 10rem;
+}
+.img_elements {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.build-comp p {
+    color: #fff;
+    padding: 1rem 0rem 2rem;
+    line-height: 1.6;
+    font-size: 18px;
+}
+.build-comp h2 {
+    font-weight: 500;
+    font-size: 48px;
+    color: #fff;
+}
+.build-comp div {  width: 48%;}
+.build-comp img { width: 40%;}
+a.light-btn {
+    background: #fff;
+    border: solid 1px #fff !important;
+    color: #f05123 !important;
+}
+a.orange-btn {
+    background: #f05123;
+    color: #fff !important;
+	border: solid 1px #f05123 !important;
+}
+a.orange-btn:hover {
+    background: #fff;
+    color: #f05123 !important;
+	border: solid 1px #fff !important;
+}
+/* call section */
+
+#call {
+    background: linear-gradient(90.38deg, #FFEEE9 -1.74%, #FDD2C6 110.38%);
+    padding: var(--main-pad);
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    position: relative;
+    text-align: center;
+    overflow:hidden;
+}
+#call div{
+    position: sticky;
+    z-index: 1;
+}
+#call img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#call h2 {
+    font-weight: 600;
+    font-size: 48px;
+    color: #f05123;
+    padding-bottom: 2rem;
+}
+
+#web-design{
+    padding:var(--main-pad);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.web-cont{
+    display:flex;
+    justify-content:space-between;
+    padding: 0rem 0rem;
+    align-items: center;
+}
+.web-cont>div:first-child{
+    width:50%;
+}
+.web-cont h3{
+    padding-bottom:2rem;
+}
+.web-cont ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+}
+.web-cont ul li{
+    padding:0.5rem 0rem;
+    font-size:18px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    padding-left: 2rem;
+}
+.web-cont ul li:before{
+    content: "";
+    /* color: #F05123; */
+    /* display: inline-block; */
+    width: 18px;
+    height: 18px;
+    background: #f05123;
+    border-radius: 30px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    border: solid 3px #f7a790;
+}
+.web-cont img{
+    width:40%;
+}
+
+/* tabs design */
+.tab-wb-content img{width:50%;}
+#indus_try {
+    padding: var(--main-pad);
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    position: relative;
+}
+.tab-wb-title {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 48px;
+    color: #000;
+    padding-left: 3rem;
+}
+.tab-wb-title:hover {
+    color: #f05123;
+    text-decoration: none;
+}
+.tab-wb.active:before {
+    background: #f05123;
+}
+.tab-wb:before {
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border: solid 1px #f05123;
+    border-radius: 42px;
+    border: solid 3px #f7a790;
+}
+.tab-wb {  display: flex;   align-items: center;}
+.tab-wb-content h3 { font-weight: 500;   font-size: 36px;  line-height: 54px;}
+.tab-wb-content div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tab-wb-content p {
+    padding: 2rem 0rem;
+}
+.tab-wb-content {
+  display: none;
+  width: 100%;
+  max-height: 100%;
+  background: #fff;
+}
+.tab-wb.active + .tab-wb-content { display: block;    border-radius: 30px;}
+.tab-wb, .tab-wb-content { padding: 10px; } 
+@media (min-width: 992px) {
+  .tab-wb { width: 25% ;     padding-top: 2rem;}
+  .tab-wb-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 75%;
+    min-height: 100%;
+    padding-top: 4rem;
+  }
+  .tabs-container {
+    position: relative;
+    padding-top: 2rem;
+  }
+}
+
+/*zoom -image*/
+.iner-box {
+    display: flex;
+    align-items: center;
+    flex-direction:row-reverse;
+    box-shadow: 11px 18px 50px rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow:11px 18px 50px rgba(0, 0, 0, 0.12);
+    justify-content: center;
+    border-radius: 15px;
+    overflow: hidden; position:relative;
+}
+#really {
+    padding: var(--main-pad);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.img-part-relly {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.img-part-relly img {
+    padding: 0px 0px 0px 0px;
+    position: relative;
+    transition: all .7s ease;
+    width: 100%;
+    display: flex;
+    transform: scale(1.1);
+}
+.iner-box:hover img {
+    transform: scale(1.0);   
+}
+.iner-box.container {
+    padding: 0px;
+}
+.line hr {
+    height: 200px;
+    border-right: 2px solid #f05123;
+    border-left: 1px solid #f05123;
+	transition: transform .6s;
+	opacity: 1;
+}
+.iner-box:hover .line hr {
+     border-right: 1px solid #f05123;
+    border-left: 1px solid #f05123;
+	 transform: scale(1.6);
+}
+.workflow-iner-box:hover .line hr {
+     border-right: 1px solid #f05123;
+    border-left: 1px solid #f05123;
+	 transform: scale(1.6);
+}
+.text-part-relly {
+    padding: 50px 40px;
+	width: 100%;
+}
+.img-part-relly {
+    padding: 0px 0px 0px 0px;
+}
+.text-part-relly h2 {
+    padding-bottom: 10px;
+}
+.img-part-relly img {
+    height: 100%;
+    object-fit: cover;transform: scale(1.2);}
+   
+/*prime-section*/
+#prime{
+    padding:var(--main-pad);
+    padding-top:5rem;
+    padding-bottom:5rem;
+    background: #fafafa;
+}
+.prime>div{
+    display:flex;
+}
+#prime h3{
+    width:80%;
+    padding-bottom:2rem;
+}
+#prime p{
+    padding-bottom:2rem;
+    width:80%;
+}
+#prime img{
+    width:100%;
+}
+.prime>div>div{
+    width:50%;
+}
+.prime>div>div:first-child{
+    padding-top:5rem;
+}
+/*web elements*/
+#elements{
+    padding:var(--main-pad);
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+}
+.web-elements{
+    padding-top:5rem;
+    display:flex;
+    justify-content:space-between;
+    min-height: 450px;
+}
+.card-box{
+    display:flex;   
+    background: #FFFFFF;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+.web-elements>div{
+    width:25%;
+}
+.web-elements .line  {
+    display:flex;
+    align-items:center;
+    background: #fff;
+ }
+ .web-elements .line hr {
+    height: 100px;
+ }
+.web-card{
+    text-align: center;
+    padding: 2rem 1.5rem;
+    background-color: #fff;
+}
+.card-img{
+    display:flex;
+    justify-content:center;
+    margin-bottom:-5.2rem;
+    z-index:-1;
+    transition:all 0.7s ease;
+
+}
+.web-elements>div:hover .card-img{
+    margin-bottom:0rem;
+}
+.card-img>div{
+    background-color:#f05123;
+    border-radius:5px;
+    padding:10px;
+}
+/*scroll*/
+#scroll{
+    padding:var(--main-pad);
+    background: #fafafa;
+    margin-top: 5rem;
+}
+.scroll{
+    display:flex;
+    column-gap:2rem;
+    padding:7rem 0rem;
+}
+.scroll>div{
+    width:50%;
+}
+.scroll p {
+    padding: 4px 0px 20px;
+}
+#scroll .scroll>div:first-child h2{
+    font-size:50px;
+    padding-bottom:2rem;
+}
+.scroll>div:first-child h2 span{
+    color:#f05123;
+}
+/*development section*/
+#development{
+    padding:var(--main-pad);
+    padding-top:3rem;
+    padding-bottom:3rem;
+}
+.dev-cont{
+    padding-top:5rem;
+    display:flex;
+    justify-content:space-between;
+}
+.dev-cont>div{
+    width:29%;
+}
+.dev-cont>div img{
+    width:100%;
+    margin-bottom:2rem;
+}
+.dev-card{
+    background: #FFFFFF;
+    box-shadow: 5px 6px 15px rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
+    margin-bottom:3rem;
+}
+.dev-card>div:last-child{
+    padding: 2rem;
+}
+.dev-no{
+    background-color:#303030;
+    width:20%;
+    display:flex;
+    justify-content:center;
+    transition:all 0.3s ease;
+}
+.dev-card:hover .dev-no{
+    background: #f05123;
+}
+.dev-no p{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke:1px #fff;
+    font-size:24px;
+    padding:5px 0;
+}
+.new-form {
+    padding: 0px !important;
+}
+#indus_try .tab-content img{width:50%;}
+#indus_try .tab-content p{padding:1rem 0rem;}
+#indus_try .tab-content>div {
+    justify-content: space-between;
+    padding-top: 1rem;
+    flex-direction: row; 
+
+}
+ /* RESPONSIVE CSS */
+ @media only screen and (max-width: 767px){
+    :root {
+        --main-pad: 0rem 1rem;
+    }
+    #build ,#web-design,.scroll,#prime,#elements,#development, #really,#call, #indus_try { padding-top: 2rem; padding-bottom: 2rem;}
+    .title h2,#scroll .scroll>div:first-child h2 ,.build-comp h2 ,#call h2{ font-size:28px;line-height:1.2;  }
+    .left-side a, .business-serv-list a, .build-comp div a, #call a, .tab-wb-content a, .prime a {font-size: 14px; width: 120px;}
+    #web-page h1 {font-size: 36px;}
+    .ban-file { padding: 3rem 0rem 0rem 1rem; }
+    .web-cont ul li:before {height:8px;    width: 8px;}
+    .ban-file {padding-top: 03rem !important;flex-direction: column !important;}
+    .web-cont ul li ,#banner-head .left-side, .web-cont,.tab-wb, .tab-wb-content {padding: 0rem; }
+    .scroll p, .web-cont ul li ,.iner-box p,.prime p,.build-comp div p { font-size: 14px; }
+    .web-cont ul li {padding-left: 2rem;padding-top:10px;}
+    .dev-card>div:last-child, .web-card ,.business-serv-list{ padding: 1rem;}
+    .web-cont h3 , #prime h3,#business-serv,.build-comp,#elements{padding-bottom: 0rem;}
+    .dev-no p ,.tab-wb-content h3 {font-size: 20px;}
+    .web-cont ul li:before,.text-part-relly h2 { font-size: 24px; }
+    .text-part-relly {padding: 15px; }
+    .tab-wb-content a {  font-size: 12px !important;}
+    #prime h3,#prime p,.title h2, #banner-head .left-side , #banner-head .right-side,.build-comp div,.web-cont>div:first-child,.scroll>div,.prime>div>div, .web-elements>div ,.dev-cont>div,.business-serv-list,.tab-content img,  .tab-wb-content img  {
+        width: 100%;}
+    .tab-wb:before {     width: 20px;     height: 20px;}    
+    .active{ background: linear-gradient(90.38deg, #FFEEE9 -1.74%, #FDD2C6 110.38%);  }
+    .tab-wb.active + .tab-wb-content {  background: linear-gradient(90.38deg, #FFEEE9 -1.74%, #FDD2C6 110.38%);padding:1rem;    border-radius: 0px;}
+    .business-serv { row-gap: 1rem;padding:0rem 0rem 3rem;}
+    .prime>div>div:first-child,.dev-cont ,.tab-title,#business-serv {padding-top: 0rem;}
+    .dev-card h4,.left-side p ,.web-cont h3, #scroll .scroll h3,#prime h3,.card-box h4{ font-size:18px;  }
+    .left-side p,.tab-wb-content p { padding:1rem 0rem;}
+    .iner-box .line,.build-comp img,.web-cont img,  .dev-cont>div img {display:none;}
+    .web-elements,#prime{padding-top:1rem;}
+    #scroll{ margin-top:0rem;}
+    .build-comp ,.ban-file,.web-cont, .iner-box,.scroll,.prime>div,.web-elements,.dev-cont{display: block;}
+    .card-box {margin-bottom:2rem;}
+    .tab-wb-title { font-size: 16px;}
+    .card-faq-first { margin: 20px 0px;padding:10px;}
+    .dev-card { margin-bottom: 1rem; }
+    
+    #banner-head {
+        height: auto;padding-bottom:3rem;}
+ }
+ @media only screen and (min-width: 768px) and (max-width: 1024px){
+	  :root { --main-pad: 0rem 2rem;
+	}
+	.ban-file {  padding: 5rem 0rem 0rem 2rem;display:block;}
+	#banner-head .left-side {padding: 0px ;}
+	#web-page h1 {font-size: 40px;line-height: 1.4;}
+	.left-side p {font-size: 18px;line-height: 1.4;padding: 1rem 0px 2rem;}	
+    #banner-head .right-side img{ width:60%; }
+    #banner-head .right-side{ text-align:right;}
+    #banner-head .left-side , #banner-head .right-side, #prime p ,#prime h2, .build-comp div,.prime>div>div:first-child,.prime>div>div:last-child{ width:100%; }
+	.left-side a, .business-serv-list a, .build-comp div a, #call a, .tab-wb-content a, .prime a {	font-size: 14px;width: 150px;  padding: 6px 3px;}	
+	.title h2 {	width: 100%;	font-size: 32px;	line-height: 1.3;}
+	.business-serv {padding: 1rem 0rem 3rem;row-gap: 2rem;column-gap: 1.6rem;}
+	.business-serv-list {	width: 46%;	padding: 2rem 1.6rem;	row-gap: 0.5rem;}
+	.business-serv-list div h3 {  font-size: 16px; line-height: 1.4;  width: 70%;}
+	#business-serv {padding-top: 4rem;	padding-bottom: 3rem;}
+	.build-comp h2 ,#call h2 { font-size: 42px;}
+	.build-comp p { padding: 1rem 0rem 2rem; font-size: 16px;}
+	#web-design { padding-top: 4rem;  padding-bottom: 4rem;}
+	.web-cont h3 { padding-bottom: 2rem;  font-size: 22px;}
+	.web-cont ul li,button.btn.btn-link.plus-faq {  font-size: 16px;}
+	.tab-wb-title {  font-size: 20px;line-height: 35px;}
+	.tab-wb-content h3 {font-size: 28px;line-height: 40px;}
+	.tabs-container {   padding-top: 4rem;} 
+	#indus_try ,#prime { padding-top: 3rem; padding-bottom: 3rem;}
+	.scroll {   padding: 6rem 0rem 5rem;}
+    #scroll { margin-top: 2rem;}
+	#scroll .scroll>div:first-child h2 { font-size: 30px;   padding-bottom: 3rem;}
+	.scroll h3 {font-size: 22px;margin: 0px;}
+	#really { padding-top: 6rem; padding-bottom: 6rem;}
+	#prime h3 {width: 100%; padding-bottom: 1rem;font-size: 26px;}
+	#elements { padding-top: 4rem; padding-bottom: 2rem;}
+	.web-elements {  padding-top: 3rem;    min-height: 250px;}
+	.web-elements>div { width: 30%;}
+	#call { padding-top: 5rem;  padding-bottom: 5rem;}
+	#development {  padding-top: 4rem;  padding-bottom: 0rem;}
+	.dev-card h4 {font-size: 20px;     margin: 0px;}
+	.dev-cont>div {  width: 31%;}
+	.dev-cont { padding-top: 2rem;}
+    .build-comp { flex-direction:column;}
+    .build-comp img{ display:none;}
+    .prime>div>div:first-child {  padding-top: 0rem;}
+    .prime>div>div:last-child{text-align:right;    display: flex;    align-items: center;}
+    #prime img,  .tab-wb-content img{width: 100%;}
+    .web-card,  .dev-card>div:last-child { padding: 1rem;}
+    .img-part-relly {   height: 550px; }
+    #banner-head {      height: auto;}
+} 
+ @media only screen and (min-width: 1024px) and (max-width: 1200px){
+	 :root {
+    --main-pad: 0rem 6rem;
+	}
+    .img-part-relly{height:450px;}
+    #banner-head .right-side img, #prime img{ width:100%; }
+    #banner-head .left-side , #banner-head .right-side,.build-comp>div{ width:50%; }
+	.ban-file {  padding: 0rem 0rem 0rem 4rem;display:flex;}
+	#banner-head .left-side { padding: 0px ;}
+	#web-page h1 {font-size: 48px;line-height: 1.4;}
+	.left-side p {font-size: 18px;padding: 1rem 0px 2rem;}
+    .build-comp {column-gap: 6rem; }
+    .text-part-relly {padding: 10px 20px; }	
+    .dev-card>div:last-child { padding: 1rem;  }
+    .iner-box .line ,.build-comp img{ display: block; }
+    .iner-box,.iner-box, .prime>div ,.build-comp{ display: flex;flex-direction:row-reverse;}
+	.left-side a, .business-serv-list a, .build-comp div a, #call a, .tab-content a, .prime a {	font-size: 16px;width: 150px;     padding: 6px 3px;}	
+	.title h2 {font-size: 34px;	line-height: 1.3;}
+	.business-serv {padding: 1rem 0rem 3rem;row-gap: 2rem;column-gap: 1.6rem;}
+	.business-serv-list {	width: 31%;	padding: 2rem 1.6rem;	row-gap: 0.5rem;}
+	.business-serv-list div h3 {  font-size: 16px; line-height:1.4;  width: 70%;}
+	#business-serv {padding-top: 4rem;	padding-bottom: 3rem;}
+	.build-comp h2 ,#call h2 { font-size: 42px;}
+	.build-comp p { padding: 1rem 0rem 1rem; font-size: 14px;}
+	#web-design { padding-top: 4rem; padding-bottom: 4rem;}
+	.web-cont h3 { padding-bottom: 2rem;  font-size: 22px;}
+	.web-cont ul li { font-size:14px;}
+	.tab-wb-title {  font-size: 18px;line-height: 35px;}
+	.tab-wb-content h3 {font-size: 28px;line-height: 40px;}
+	.tabs-container {   padding-top: 4rem;}
+	#indus_try { padding-top: 3rem; padding-bottom: 3rem;}
+	.scroll {   padding: 6rem 0rem 5rem;}
+	#scroll .scroll>div:first-child h2 { font-size: 40px;   padding-bottom: 3rem;}
+	.scroll h3 {font-size: 22px;margin: 0px;}
+	#really { padding-top: 6rem; padding-bottom: 6rem;}
+	#prime { padding-top: 3rem;  padding-bottom: 3rem;}
+	#prime h3 {width: 80%; padding-bottom: 1rem;font-size: 26px;}
+	#elements { padding-top: 4rem; padding-bottom: 2rem;}
+	.web-elements {  padding-top: 3rem;    min-height: 250px;}
+	.web-elements>div { width: 30%;}
+	#call { padding-top: 5rem;  padding-bottom: 5rem;}
+	#development {  padding-top: 4rem;  padding-bottom: 2rem;}
+	.dev-card h4 {font-size: 20px;     margin: 0px;}
+	.dev-cont>div {  width: 31%;}
+	.dev-cont { padding-top: 2rem;}
+	
+ }
+ 
+ @media only screen and (min-width: 1201px) and (max-width: 1366px){
+	 :root {
+    --main-pad: 0rem 6rem;
+	}
+	.ban-file {  padding: 0rem 0rem 0rem 6rem;}
+	#banner-head .left-side { padding: 0px;}
+    #banner-head{height:auto !important;}
+	#web-page h1 {font-size: 48px;line-height: 1.4;}
+	.left-side p {font-size: 18px;line-height: 1.4;padding: 1rem 0px 2rem;}	
+	.left-side a, .business-serv-list a, .build-comp div a, #call a, .tab-wb-content a, .prime a {	font-size: 16px;width: 150px;     padding: 6px 3px;}	
+	.title h2 {		font-size: 40px;	line-height: 1.3;}
+	.business-serv {padding: 1rem 0rem 3rem;row-gap: 2rem;column-gap: 1.6rem;}
+	.business-serv-list {	WIDTH: 23%;	padding: 2rem 1.6rem;	row-gap: 0.5rem;}
+	.business-serv-list div h3 {  font-size: 16px; line-height: 1.4;  width: 70%;}
+	#business-serv {padding-top: 4rem;	padding-bottom: 3rem;}
+	.build-comp h2 ,#call h2{ font-size: 42px;}
+    #scroll{margin-top:0rem;}
+	.build-comp p { padding: 1rem 0rem 2rem; font-size: 16px;}
+	#web-design { padding-top: 4rem;  padding-bottom: 4rem;}
+	.web-cont h3 { padding-bottom: 2rem;  font-size: 22px;}
+	.web-cont ul li {  font-size: 16px;}
+	.tab-wb-title {  font-size: 20px;line-height: 35px;}
+	.tab-wb-content h3 {font-size: 28px;line-height: 40px;}
+	.tabs-container {   padding-top: 4rem;}
+	#indus_try { padding-top: 3rem; padding-bottom: 8rem;}
+	.scroll {   padding: 6rem 0rem 5rem;}
+	#scroll .scroll>div:first-child h2 { font-size: 40px;   padding-bottom: 3rem;}
+	.scroll h3 {font-size: 22px;margin: 0px;}
+	#really { padding-top: 6rem; padding-bottom: 6rem;}
+	#prime { padding-top: 3rem;  padding-bottom: 3rem;}
+    .prime>div>div:first-child { padding-top: 0rem;}
+	#prime h3 {width: 80%; padding-bottom: 1rem;font-size: 26px;}
+	#elements { padding-top: 4rem; padding-bottom: 2rem;}
+	.web-elements {  padding-top: 3rem;    min-height: 300px;}
+	.web-elements>div { width: 30%;}
+	#call { padding-top: 5rem;  padding-bottom: 5rem;}
+	#development {  padding-top: 4rem;  padding-bottom: 0rem;}
+	.dev-card h4 {font-size: 20px;     margin: 0px;}
+	.dev-cont>div {  width: 31%;}
+	.dev-cont { padding-top: 2rem;}
+    .dev-card>div:last-child {padding: 1rem; }   
+ }
+ @media only screen and (min-width: 1367px) and (max-width: 1600px){
+	:root {
+    --main-pad: 0rem 8rem;
+	}
+	.ban-file {  padding: 0rem 0rem 0rem 10rem;}
+	#banner-head .left-side { padding: 0px ;}
+    #banner-head{margin-bottom:0 !important;}
+	#web-page h1 {font-size: 48px;line-height: 1.4;}
+	.left-side p {font-size: 18px;line-height: 1.4;padding: 1rem 0px 2rem;}	
+	.left-side a, .business-serv-list a, .build-comp div a, #call a, .tab-content a, .prime a {	font-size: 16px;width: 150px;     padding: 6px 3px;}	
+	.title h2 {	font-size: 40px;	line-height: 1.3;}
+	.business-serv {padding: 1rem 0rem 3rem;row-gap: 2rem;column-gap: 1.6rem;}
+	.business-serv-list {	width:23%;	padding: 2rem 1.6rem;	row-gap: 0.5rem;}
+	.business-serv-list div h3 {  font-size: 16px; line-height: 1.4;  width: 70%;}
+	#business-serv {padding-top: 4rem;	padding-bottom: 3rem;}
+	.build-comp h2,#call h2  { font-size:42px;}
+	.build-comp p { padding: 1rem 0rem 2rem; font-size: 16px;}
+	#web-design { padding-top: 4rem;  padding-bottom: 4rem;}
+	.web-cont h3 { padding-bottom: 2rem;  font-size: 22px;}
+	.web-cont ul li {  font-size:16px;}
+	.tab-wb-title {  font-size: 20px;line-height: 35px;}
+	.tab-wb-content h3 {font-size: 28px;line-height: 1.3;}
+	.tabs-container {   padding-top: 4rem;}
+	#indus_try { padding-top: 3rem; padding-bottom: 8rem;}
+	.scroll {   padding: 6rem 0rem 5rem;}
+	#scroll .scroll>div:first-child h2 { font-size:40px;   padding-bottom: 3rem;}
+	.scroll h3 {font-size: 22px;margin: 0px;}
+	#really { padding-top: 6rem; padding-bottom: 6rem;}
+	#prime { padding-top: 3rem;  padding-bottom: 3rem;}
+	#prime h3 {width: 80%; padding-bottom: 1rem;font-size: 26px;}
+	#elements { padding-top: 4rem; padding-bottom: 2rem;}
+	.web-elements {  padding-top: 3rem;    min-height: 320px;}
+	.web-elements>div { width: 30%;}
+	#call { padding-top: 5rem;  padding-bottom: 5rem;}
+	#development {  padding-top: 4rem; padding-bottom:0rem;}
+	.dev-card h4 {font-size: 20px;     margin: 0px;}
+	.dev-cont>div {  width: 31%;}
+	.dev-cont { padding-top: 2rem;}
+    #scroll {
+         margin-top:0rem; 
+    }
+ }  
+   

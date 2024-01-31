@@ -1,0 +1,1067 @@
+
+section.full_service_baner.ui-ux-banner {
+    padding-top: 100px;
+    height: 86vh;
+}
+.ui-ux-banner img {
+    z-index: -2;
+}
+section.ui-ux-banner .service_block div:first-child {
+    width: 52%;
+}
+.orng-btn-hvr {
+    font-size: 16px;
+}
+ section.ui-ux-banner h1 {
+    padding-right: 0;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.orng-btn-hvr:hover {
+    color: #f05123;
+    background: #fff;
+    border: 1px solid #f05123;
+}
+.mr_ {
+    margin-right: 0 !important;
+}
+.key-elemen-ui-ux .keey-element-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.key-elemen-ui-ux .key-element-box-wrap {
+    padding: 0 10px 20px 10px;
+    width: 18.5%;
+    position: relative;
+    background: #fff;
+    box-shadow: 3px 0px 13px rgb(0 0 0 / 12%);
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.key-elemen-ui-ux .key-element-box-wrap:not(:last-child){
+    margin-right: 20px;
+}
+p.para_m {
+    font-weight: 500;
+    text-align: center;
+    color: #303030;
+}
+.element-img {
+    background: #ffff;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #80808040;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    display: none;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.key-elemen-ui-ux .key-element-box-wrap:hover .element-img {
+   display: block;
+   top: -9px;
+}
+
+p.para_m {
+    padding: 20px 10px;
+    padding-top: 0;
+}
+.element-img-wrap {
+    border-radius: 20px;
+    transform: translateY(15%);
+    transition: transform .2s ease-in-out;
+    
+}
+.key-elemen-ui-ux .key-element-box-wrap:hover {
+    background: #f05123;
+}
+
+.key-elemen-ui-ux .key-element-box-wrap:hover p.para_m {
+    color: #fff;
+}
+.key-elemen-ui-ux .key-element-box-wrap:hover .element-img-wrap {
+    width: 100%;
+    bottom: 142px;
+    transform: translateY(-50%);
+
+}
+
+
+.key-elemen-ui-ux {
+    box-shadow: 1px 11px 19px -7px #00000017;
+}
+
+/* Slider */
+.ui-ux-service .indus-list.slick-slide .text {
+    box-shadow: 3px 0px 13px rgb(0 0 0 / 12%) !important;
+    margin-top: 5px;
+    border-radius: 20px;
+    padding: 44px 22px;
+    text-align: center;
+    min-height: 230px;
+}
+.ui-ux-service .indus-list.slick-slide .text h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+.ui-ux-service {
+    width: 90%;
+    margin: 0 auto;
+}
+.ui-ux-service button.slick-prev:before{
+    border-top: 2px solid #F05123;
+    border-left: 2px solid #F05123;
+}
+.ui-ux-service button.slick-next:before{
+    border-top: 2px solid #F05123;
+    border-left: 2px solid #F05123;
+}
+.ui-ux-service button.slick-prev, .ui-ux-service button.slick-next{
+   border: none;
+   box-shadow: 4px 7px 22px rgba(0, 0, 0, 0.12);
+}
+/* End Slider */
+.leverage-mastery .key-element-box-wrap:not(:last-child) {
+    margin-right: 40px;
+}
+.key-elemen-ui-ux .key-element-box-content .element-img h5 {
+    font-size: 22px;
+    color: #f05123;
+}
+.leverage-mastery {
+    background: #F9F9F9;
+}
+.visual-design-box {
+    width: 70%;
+    box-shadow: 2px 5px 23px rgb(0 0 0 / 9%);
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.visual-design-box h5 {
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+    font-weight: 500;
+}
+
+.visual-design-main {
+    padding-left: 0 !important;
+}
+.leverage-para {
+    text-align: center;
+    width: 64%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.visual-design-main img {
+    height: 600px;
+    object-fit: cover;
+}
+.visual-design-main .title {
+    padding-bottom: 50px;
+}
+.industries-we-service p {
+    width: 60%;
+    margin: 0 auto;
+    text-transform: capitalize;
+}
+.industries-we-service .title {
+    padding-bottom: 40px;
+}
+body .industries-we-service .round {
+    border-right: 0 !important;
+}
+.industries-we-service .inside-text p {
+    margin: 0;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #787878 !important;
+    text-align: left;
+    width: 100%;
+    transition: all .2s ease-in-out;
+}
+.industries-we-service .round {
+    padding-right: 0 !important;
+    width: 22% !important;
+}
+.img-white {
+    display: none;
+}
+.inside-text:hover .back-hover {
+    background: none !important;
+    margin: 0px 0px 0px 5px !important;
+}
+.inside-text:hover{
+    transition: all .2s ease-in-out;
+}
+.inside-text:hover {
+    background: #f05123;
+}
+.inside-text:hover .back-hover p {
+    color: #fff !important;
+}
+.inside-text:hover .img-reg {
+    display: none;
+}
+.inside-text:hover .img-white {
+    display: block;
+}
+.img-white {
+    transition: all .2s ease-in-out;
+}
+.img-reg {
+    transition: all .2s ease-in-out;
+}
+.industries-we-service .mid-app-sec {
+    justify-content: center !important;
+}
+.industries-we-service .inside-text {
+    margin-right: 22px !important;
+}
+.industries-we-service .inside-text:nth-child(4),.industries-we-service .inside-text:nth-child(8),.industries-we-service .inside-text:nth-child(10) {
+    margin-right: 0 !important;
+}
+.industries-we-service {
+    background: #F9F9F9;
+}
+.emerging-technologies {
+    background: #fff;
+    padding-top: 8rem !important;
+}
+.emerging-tech-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.emerging-tech-cards .emerging-card-inner {
+    background: #FFFFFF;
+    box-shadow: 3px 0px 13px rgb(0 0 0 / 12%);
+    border-radius: 20px;
+    padding: 35px;
+}
+.emerging-tech-cards .emerging-card-inner {
+    background: #FFFFFF;
+    box-shadow: 3px 0px 13px rgb(0 0 0 / 12%);
+    border-radius: 20px;
+    padding: 35px;
+    width: 23%;
+    margin-right: 100px;
+}
+.emerging-tech-cards .emerging-card-inner {
+    background: #FFFFFF;
+    box-shadow: 3px 0px 13px rgb(0 0 0 / 12%);
+    border-radius: 20px;
+    padding: 35px;
+    width: 23%;
+    margin: 30px 100px 30px 0;
+    text-align: center;
+
+}
+.emerging-tech-cards .emerging-card-inner:nth-child(3),.emerging-tech-cards .emerging-card-inner:nth-child(5) {
+    margin-right: 0;
+}
+.emerging-technologies .title {
+    padding-bottom: 30px;
+}
+.emerging-card-inner h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+.why-choose-mstr-info {
+    background: #fff;
+}
+.why-choose-mstr-info .inside-text {
+    margin-right: 60px !important;
+}
+.why-choose-mstr-info .inside-text.inside-text-new {
+    margin-right: 60px !important;
+}
+.industries-we-service .round img {
+    width: inherit !important;
+}
+.ui-ux-service {
+    padding-top: 6rem !important;
+}
+.custom-app-solutions {
+    background: #FFFFFF;
+    box-shadow: 15px 11px 76px rgb(0 0 0 / 9%);
+    border-radius: 46px;
+    margin:var(--main-pad);
+
+}
+.custom-app-solutions h2 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.black-btn {
+    text-align: center;
+}
+.black-btn button {
+    background: #000;
+    border: 1px solid #303030;
+    font-size: 20px;
+}
+.black-btn button:hover {
+    background: #fff;
+    color: #303030;
+    border: 1px solid #303030;
+}
+section.ui-ux-design-process .ui-ux-design-main {
+    background: #FFFFFF;
+    box-shadow: 3px 0px 13px rgb(0 0 0 / 12%);
+    padding: 30px;
+    width: 44%;
+    margin-bottom: 60px;
+    padding-left: 7%;
+}
+section.ui-ux-design-process .ui-ux-design-main:nth-child(3),section.ui-ux-design-process .ui-ux-design-main:nth-child(5) {
+    border-radius: 0 20px 20px 0;
+}
+section.ui-ux-design-process .ui-ux-design-main:nth-child(4),section.ui-ux-design-process .ui-ux-design-main:nth-child(6){
+    border-radius: 20px 0 0 20px;
+}
+section.ui-ux-design-process {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section.ui-ux-design-process .ui-ux-design-process-inner .ui-ux-design-process-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+section.ui-ux-design-process .ui-ux-design-process-inner .ui-ux-design-process-content .ui-ux-design-process-img {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.ui-ux-design-main{
+    position: relative;
+}
+
+.step-count h2 {
+    color: #fff;
+    font-size: 50px;
+}
+.step-count {
+    background: #f05123;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    transition: all .3s ease-in-out;
+}
+.orng-bck {
+    background: #f05123;
+    border-radius: 20px;
+    transition: all .3s ease-in-out;
+    position: absolute;
+    width: 80%;
+    top: 0;
+    bottom: 0;
+    z-index: -3;
+}
+.ui-ux-design-main:hover .orng-bck {
+    transform: translateX(11%);
+}
+.ui-ux-design-main:hover .orng-bck .step-count {
+    transform: translateX(36%);
+}
+.orng-bck.orng-bck-left .step-count {
+    margin-right: 100%;
+}
+.orng-bck.orng-bck-left {
+    transform: translateX(-15%);
+}
+section.ui-ux-design-process .ui-ux-design-main:hover .orng-bck.orng-bck-left {
+    transform: translateX(-26.5%);
+}
+section.ui-ux-design-process .ui-ux-design-main:hover .orng-bck.orng-bck-left .step-count {
+    transform: translateX(-36%);
+}
+section.ui-ux-design-process {
+    margin-top: 7rem;
+}
+section.ui-ux-design-process .title {
+    padding-bottom: 40px;
+}
+section.ui-ux-design-process .leverage-para {
+    padding-bottom: 30px;
+    width: 57%;
+}
+.wireframe-prototype{
+    background-image: url(../images/ui-ux-img/wireframe-prototype-bg.jpg);
+    z-index: -3;
+}
+section.wireframe-prototype .wireframe-pro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+section.wireframe-prototype {
+    padding: 4rem 9rem 0 9rem;
+    position: relative;
+    margin: 0rem 0 6rem;
+    z-index: 1;
+}
+.prototype-steps {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.prototype-steps .prototype-step-text {
+    background: #D9D9D9;
+    border-radius: 10px;
+    padding: 25px 45px;
+    width: 35%;
+}
+.prototype-steps .prototype-step-text:not(:last-child) {
+    margin-right: 30px;
+}
+.prototype-steps .prototype-step-text p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #303030;
+    justify-content: center;
+}
+.prototype-steps .prototype-step-text:last-child {
+    margin-top: 85px;
+}
+.border-sec {
+    height: 180px;
+    border: 1px solid #000;
+    border-radius: 90px;
+    position: absolute;
+    width: 88%;
+    top: 430px;
+    left: 110px;
+    z-index: -2;
+}
+.mobile-view  {
+    transform: translateY(70px);
+}
+.indstry-srvc {
+    margin-top: 4rem;
+}
+.ui-ux-service .indus-list.slick-slide .text {
+    min-height: 250px;
+}
+.key-elemen-ui-ux.leverage-mastery .title {
+    padding-bottom: 40px;
+}
+.visual-design-main .iner-box {
+    border-radius: 0 15px 15px 0;
+}
+/*************** Mobile Frame ***************/
+/* Extra */
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+  }
+  .center{
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap: 25px;
+  }
+  .frame{
+    border: 13px solid #D9D9D9;
+    border-radius: 50px;
+  }
+  .card .title{
+    text-align:center;
+  }
+  
+  /* Hover Scroll Effect */
+  .frame{
+    width:300px;
+    height:610px;
+    overflow: hidden;
+  }
+  .frame img{
+    object-fit: cover;
+    width:100%;
+    transform: translateY(0);
+    transition: 2s ease-out;
+  }
+  .frame:hover img {
+    object-fit: cover;
+    width:100%;
+    /* Considering frame height   */
+    transform: translateY(calc(-100% + 600px));
+    transition: 8s linear;
+  }
+  /*OR */
+  /* .frameimg:hover{
+    object-fit: cover;
+    width:100%;
+    transform: translateY(-100%);
+    transition: 2s ease-out;
+  } */
+  
+  /* With background image  */
+  .bg-image{
+  
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(https://source.unsplash.com/500x1500/);
+    transition: background-position 2s ease-out;
+    
+  }
+  .frame:hover .bg-image{
+      background-position: 0 100%;
+   }
+@media only screen and (max-width: 1600px) {
+    .step-count h2 {
+        font-size: 30px;
+    }
+    .ui-ux-design-main:hover .orng-bck .step-count {
+        transform: translateX(33%);
+    }
+    .ui-ux-design-main:hover .orng-bck {
+        transform: translateX(13%);
+    }
+    section.ui-ux-design-process .ui-ux-design-main:hover .orng-bck.orng-bck-left {
+        transform: translateX(-27.5%);
+    }
+    .prototype-steps .prototype-step-text p {
+        font-size: 17px;
+    }
+    .border-sec {
+        height: 170px;
+        top: 390px;
+    }
+    .prototype-steps {
+        width: 33.3%;
+    }
+    .prototype-steps .prototype-step-text {
+        padding: 20px 10px;
+        width: 42%;
+    }
+}
+@media only screen and (max-width: 1440px) {
+    .prototype-steps {
+        width: 49.3%;
+    }
+    .prototype-steps .prototype-step-text {
+        padding: 10px 10px;
+        width: 42%;
+    }
+    .border-sec {
+        height: 105px;
+        top: 430px;
+        width: 84%;
+    }
+    .ui-ux-service .indus-list.slick-slide .text {
+        min-height: 300px;
+    }
+    .leverage-mastery {
+        padding-top: 4rem !important;
+    }
+    .mobile-view {
+        text-align: center;
+    }
+    .mobile-view  {
+        width: 50%;
+    }
+    .prototype-steps .prototype-step-text:not(:last-child) {
+        margin-right: 15px;
+    }
+    .prototype-steps .prototype-step-text:last-child {
+        margin-top: 35px;
+    }
+    .mobile-view  {
+        transform: translateY(80px);
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 1258px) {
+    .mr_ {
+        margin-right: 20px !important;
+    }
+    p.para_m {
+        padding: 0;
+    }
+    .element-img {
+        width: 45px;
+        height: 45px;
+    }
+    .element-img img {
+        width: 25px;
+    }
+    .key-elemen-ui-ux .key-element-box-content .element-img h5 {
+        font-size: 18px;
+    }
+    .border-sec {
+        width: 93%;
+        height: 90px;
+        top: 430px;
+        left: 38px;
+    }
+    .prototype-steps .prototype-step-text {
+        padding: 10px 10px;
+        width: 44%;
+    }
+    .prototype-steps .prototype-step-text p {
+        font-size: 14px;
+    }
+    .mobile-view  {
+        transform: translateY(70px);
+    }
+    .visual-design-box {
+        width: 85%;
+    }
+    .industries-we-service .round img {
+        width: 70% !important;
+    }
+    .inside-text .back-hover {
+        margin: 0;
+    }
+    .emerging-tech-cards .emerging-card-inner {
+        width: 31%;
+        margin: 30px 30px 30px 0;
+    }
+    .key-elemen-ui-ux .key-element-box-wrap {
+        width: 28.5%;
+    }
+    section.wireframe-prototype {
+        padding: 4rem 3rem 0 3rem;
+    }
+    .ui-ux-service {
+        padding-bottom: 70px !important;
+    }
+    .industries-we-service p {
+        width: 80%;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .border-sec {
+        width: 91%;
+        top: 404px;
+    }
+    body .slick-prev {
+        left: -60px !important;
+    }
+    body .slick-next {
+        right: -60px!important;
+    }
+    body .ui-ux-service .indus-list.slick-slide .text {
+        min-height: auto;
+    }
+}
+@media only screen and (max-width: 991px) {
+.mobile-view  {
+    transform: translateY(10px);
+    width: 40%;
+}
+.border-sec {
+    width: 92%;
+    top: 354px;
+    height: 84px;
+}
+.frame:hover img {
+    transform: translateY(calc(-100% + 470px));
+}
+.prototype-steps {
+    width: 28.3%;
+}
+.prototype-steps .prototype-step-text:not(:last-child) {
+    margin-right: 0;
+}
+.prototype-steps .prototype-step-text p {
+    font-size: 13px;
+}
+.prototype-steps .prototype-step-text {
+    padding: 5px;
+    width: 44%;
+}
+.ui-ux-design-main:hover .orng-bck {
+    transform: translateX(18%);
+}
+section.ui-ux-design-process .ui-ux-design-main:hover .orng-bck.orng-bck-left {
+    transform: translateX(-32.5%);
+}
+/* .industries-we-service .inside-text p {
+    font-size: 13px !important;
+    line-height: 20px;
+}
+.industries-we-service .round img {
+    width: 60% !important;
+} */
+.industries-we-service .inside-text {
+    width: 33% !important;
+}
+.emerging-tech-cards .emerging-card-inner:nth-child(3) {
+    margin-right: 30px;
+}
+.key-elemen-ui-ux .key-element-box-wrap:nth-child(9) {
+    margin-right: 0;
+}
+.leverage-mastery .key-element-box-wrap:nth-child(3) {
+    margin-right: 0;
+}
+/* .why-choose-mstr-info .inside-text:last-child {
+    margin-right: 60px !important;
+} */
+.why-choose-mstr-info .inside-text:nth-child(2),.why-choose-mstr-info .inside-text:nth-child(4),.why-choose-mstr-info .inside-text:nth-child(6),.why-choose-mstr-info .inside-text:nth-child(8){
+    margin-right: 0 !important;
+}
+.industries-we-service.indstry-srvc .inside-text:nth-child(2),.industries-we-service.indstry-srvc .inside-text:nth-child(4),.industries-we-service.indstry-srvc .inside-text:nth-child(6),.industries-we-service.indstry-srvc .inside-text:nth-child(8),.industries-we-service.indstry-srvc .inside-text:nth-child(10) {
+    margin-right: 0px !important;
+}
+.industries-we-service {
+    padding: 6rem 0 !important;
+}
+.custom-app-solutions h2 {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.key-elemen-ui-ux .key-element-box-wrap:nth-child(3),.key-elemen-ui-ux .key-element-box-wrap:nth-child(6),.key-elemen-ui-ux .key-element-box-wrap:nth-child(9){
+    margin-right: 0 !important;
+}
+.visual-design-box {
+    padding: 18px;
+}
+.industries-we-service .round img {
+    width: 50% !important;
+}
+.emerging-card-inner h3 {
+    font-size: 18px;
+    line-height: 25px;
+}
+section.ui-ux-design-process .ui-ux-design-process-inner .ui-ux-design-process-content .ui-ux-design-process-img img {
+    width: 80%;
+}
+.visual-design-box h5 {
+    font-size: 18px;
+}
+.frame {
+    width: 250px;
+    height: 490px;
+}
+.mobile-view {
+    transform: translateY(50px);
+    width: 30%;
+}
+section.full_service_baner.ui-ux-banner {
+    height: auto;
+}
+.emerging-tech-cards .emerging-card-inner {
+    width: 45%;
+    margin: 30px 30px 30px 0;
+}
+}
+@media only screen and (max-width: 768px) {
+    section.wireframe-prototype {
+        padding: 1rem 3rem 1rem 3rem;
+    }
+    .prototype-steps {
+        flex-direction: column;
+    }
+    .prototype-steps .prototype-step-text {
+        margin-right: 0 !important;
+    }
+    .prototype-steps .prototype-step-text:last-child {
+        margin-top: 0;
+    }
+    .prototype-steps .prototype-step-text {
+        margin-bottom: 20px;
+    }
+    .prototype-steps {
+        align-items: center;
+    }
+    .border-sec {
+        width: 89%;
+        top: 191px;
+        height: 124px;
+        left: 40px;
+    }
+    .mobile-view  {
+        transform: translateY(60px);
+        width: 80%;
+    }
+    .border-sec {
+        display: none;
+    }
+    section.wireframe-prototype .wireframe-pro {
+        flex-direction: column;
+    }
+    .prototype-steps .prototype-step-text {
+        width: 90%;
+    }
+    .prototype-steps {
+        width: 100%;
+    }
+    .prototype-steps .prototype-step-text {
+        padding: 10px 5px;
+    }
+    .mobile-view {
+        order: 3;
+    }
+    .prototype-steps .prototype-step-text p {
+        font-size: 16px;
+    }.prototype-steps .prototype-step-text p {
+        font-size: 16px;
+    }
+ 
+}
+@media only screen and (max-width: 767px) {
+    /* section.wireframe-prototype {
+        display: none;
+    } */
+    .key-elemen-ui-ux.leverage-mastery .title {
+        padding-bottom: 20px;
+    }
+section.full_service_baner.ui-ux-banner {
+    padding-top: 60px;
+    height: auto;
+}
+section.ui-ux-banner .service_block div:first-child {
+    width: 100%;
+}
+.key-elemen-ui-ux .title {
+    padding-bottom: 50px;
+}
+.visual-design-box:last-child {
+    margin-bottom: 0;
+}
+.visual-design-box {
+    width: 100%;
+}
+.visual-design-box h5 {
+    width: 90%;
+}
+.visual-design-main .text_info {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+section.ui-ux-design-process {
+    margin-bottom: 0rem;
+    margin-top: 4rem;
+}
+
+body .visual-design-main {
+    padding-top: 0 !important;
+}
+.key-elemen-ui-ux .title {
+    padding-bottom: 20px;
+}
+.emerging-tech-cards .emerging-card-inner {
+    width: 70%;
+    margin-right: 0 !important;
+}
+.industries-we-service .round img {
+    width: 35px !important;
+}
+.industries-we-service .inside-text {
+    width: 55% !important;
+    margin-right: 0 !important;
+}
+section.ui-ux-design-process .leverage-para {
+    width: 85%;
+}
+.custom-app-solutions h2 {
+    font-size: 20px;
+}
+.custom-app-solutions {
+    padding: 3rem !important;
+}
+section.ui-ux-design-process {
+    flex-direction: column;
+}
+body section.ui-ux-design-process .ui-ux-design-main {
+    border-radius: 10px !important;
+    width: 100%;
+    margin-bottom: 20px;
+}
+section.ui-ux-design-process {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.orng-bck {
+    display: none;
+}
+.key-elemen-ui-ux .key-element-box-wrap {
+    width: 85%;
+    margin-right: 0 !important;
+}
+.key-element-box-content p {
+    font-size: 16px;
+}
+.custom-app-solutions {
+    border-radius: 25px;
+    margin: 0 1rem;
+}
+.black-btn button {
+    font-size: 14px;
+}
+.industries-we-service {
+    padding: 1rem 0 !important;
+}
+.industries-we-service .title {
+    padding-bottom: 20px;
+}
+body .slick-prev {
+    left: -30px !important;
+}
+body .slick-next {
+    right: -30px!important;
+}
+body .slick-prev:before, body .slick-next:before{
+    width: 12px;
+    height: 12px;
+}
+body .slick-prev, body .slick-next{
+   width: 45px;
+   height: 45px;
+}
+.prototype-steps .prototype-step-text {
+    margin-right: 0 !important;
+    margin-bottom: 20px;
+  }
+  .border-sec {
+    top: 174px;
+}
+
+.key-element-box-wrap {
+    padding-top: 20px !important;
+}
+}
+@media only screen and (max-width: 650px) {
+
+}
+@media only screen and (max-width: 525px) {
+.key-elemen-ui-ux .key-element-box-wrap {
+    width: 45%;
+    margin-right: 0 !important;
+    margin-bottom: 20px;
+}
+.prototype-steps {
+    flex-direction: row;
+}
+.key-elemen-ui-ux .keey-element-main {
+    justify-content: space-between;
+}
+.visual-design-main img {
+    height: auto; 
+}
+/* .key-elemen-ui-ux .key-element-box-wrap:nth-child(2),.key-elemen-ui-ux .key-element-box-wrap:nth-child(4),.key-elemen-ui-ux .key-element-box-wrap:nth-child(6),.key-elemen-ui-ux .key-element-box-wrap:nth-child(8),.key-elemen-ui-ux .key-element-box-wrap:nth-child(10) {
+    margin-right: 0 !important;
+}
+.key-elemen-ui-ux .key-element-box-wrap:nth-child(3),.key-elemen-ui-ux .key-element-box-wrap:nth-child(9) {
+    margin-right: 20px !important;
+} */
+.leverage-para {
+    width: 97%;
+}
+/* .leverage-mastery .key-element-box-wrap:nth-child(3) {
+    margin-right: 40px !important;
+} */
+
+body .ui-ux-service {
+    padding-top: 3rem !important;
+    padding-bottom: 2rem !important;
+}
+.ui-ux-service .indus-list.slick-slide .text h4 {
+    font-size: 18px;
+    line-height: 27px;
+}
+.visual-design-main{
+    padding-left: 20px !important;
+}
+.visual-design-main .iner-box:hover .visual-design-box h5 span {
+    display: none;
+}
+.visual-design-box h5 {
+    width: 100%;
+}
+.visual-design-box h5 {
+    width: 100%;
+    transform: translateX(-25px);
+}
+
+.industries-we-service .inside-text {
+    width: 90% !important;
+}
+.emerging-tech-cards .emerging-card-inner {
+    width: 100%;
+    margin-bottom: 0px;
+}
+.custom-app-solutions {
+    padding: 3rem 1rem !important;
+}
+.why-choose-mstr-info {
+    padding-bottom: 20px !important;
+}
+.emerging-tech-cards .emerging-card-inner {
+    padding: 35px 20px;
+}
+.industries-we-service p {
+    width: 90%;
+}
+.industries-we-service.indstry-srvc {
+    margin-top: 30px;
+}
+section.ui-ux-design-process {
+    margin-top: 30px;
+}
+section.ui-ux-design-process .leverage-para {
+    width: 96%;
+}
+.visual-design-main .iner-box {
+    border-radius: 15px;
+}
+.prototype-steps .prototype-step-text p {
+    font-size: 15px;
+}
+.prototype-steps .prototype-step-text {
+    width: 45%;
+}
+section.wireframe-prototype {
+    padding: 1rem 2rem 1rem 2rem;
+}
+.mobile-view {
+    transform: translateY(40px);
+}
+section.full_service_baner.ui-ux-banner {
+    padding-top: 0px;
+}
+#border_block, #credible {
+    padding-top: 1rem !important;
+}
+section.wireframe-prototype {
+    margin-bottom: 3rem;
+}
+.visual-design-main .title {
+    padding-bottom: 30px;
+}
+}

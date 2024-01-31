@@ -1,0 +1,1433 @@
+
+/*webdevelopment-service-page*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-weight: 400;
+    font-family: 'Poppins';
+}
+.service-sec{
+	margin-top:5%;
+}
+.web-land-mh{
+	position:relative;
+}
+.web-land-list{
+	    display: flex;
+    flex-wrap: wrap;
+    height: 100vh
+}
+.frame-img{
+	position: absolute;
+    bottom: 0;
+    right: 20rem;
+}
+.web-land-ser h1{
+	font-size: 54px;
+    color: #303030;
+    font-weight: 600;
+    line-height: 64px;
+    padding: 0px 26% 0px 0px;
+}
+.web-land-ser span{
+	    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+    padding: 25px 45% 0px 0px;
+}
+.web-land-ser p{
+	    font-size: 16px;
+    color: #303030;
+    font-weight: 400;
+       padding: 30px 60% 0px 0px;
+}
+
+.get-started-btn{
+	    padding: 15px 55px;
+    border: 2px solid;
+    color: #264360;
+    font-size: 20px;
+    border-radius: 0px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+.get-started-btn:hover{
+	background: #f05454;
+    color: white;
+}
+.get-start h4{
+	font-size: 25px;
+    font-weight: 600;
+    color: #303030;
+    text-transform: capitalize;
+}
+.get-start {
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.free-consulatant button{
+	padding: 20px 75px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 2px solid;
+    color: #264360;
+    background: transparent;
+    border-radius: 0px;
+    margin-top: 2rem;
+}
+.free-consulatant button:hover{
+	background: #f05454;
+    color: white;
+}
+.free-consulatant{
+	text-align:center;
+}
+.web-land-ser{
+	    width: 59%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	    padding-left: 11rem;
+}
+.rect{
+	    width: 41%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #ff6319;
+}
+.frame-image img{
+	width: 100%;
+    margin-left: -40%;
+    position: absolute;
+    top: 230px;
+
+}
+.web-dev-service{
+	    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	height:100vh;
+
+}
+.development-services{
+	width:50%;
+	padding:15% 0px 0px 0px;
+}
+.frame-image{
+	    width: 50%;
+    BACKGROUND: #ef5122;
+    position: relative;
+    left: 291px;
+    padding-top:5%;
+        bottom: 0px;
+	
+}
+.development-services h1{
+	   font-size: 50px;
+    color: #264360;
+    font-weight: 600;
+    font-family: 'Poppins';
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.our-development{
+	    background: #303030;
+}
+.our-web-devlop{
+	display:flex;
+	flex-wrap:wrap;
+	padding:6rem 0px;
+
+}
+.our-web-devlop h2 {
+    width: 45%;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+    padding: 0px 4%;
+    text-transform: capitalize;
+}
+.paragraph{
+	width:55%;
+	/*     border-left: 2px solid white; */
+   /*  height: 325px; */
+}
+.paragraph p{
+	    color: white;
+    font-weight: 400;
+    margin-bottom: 35px;
+	    padding-left: 60px;
+		    font-size: 16px;
+
+
+}
+
+.our-web-devlop h2 span {
+    font-size: 16px;
+    display: inline-block;
+    padding-top: 1rem;
+}
+.paragraph img {
+    width: 100%;
+    margin-left: 1rem;
+    border-radius: 10px;
+}
+
+
+
+.maintaince-sec{
+	background: #f5f5f5;
+	padding:7rem 0px;
+}
+.maintaince-devlop h3{
+	font-size: 30px;
+    font-weight: 600;
+    color: #264360;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.maintaince-dev{
+	display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+	margin-top: 90px;
+    justify-content: space-between;
+}
+.service-img{
+	width:50%;
+}
+.service-img img{
+	width:90%;
+}
+.maintain-boxes{
+	width:48%;
+	    padding-right: 5%;
+}
+.maintain-boxes h3{
+	font-size: 30px;
+    font-weight: 600;
+    color: #303030;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.maintain-boxes p{
+	font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+    text-align: justify;
+	line-height:30px;
+}
+.development-services h2{
+	font-size: 30px;
+    font-weight: 500;
+    color: #264360;
+}
+.development-services p{
+	font-size: 18px;
+    font-weight: 400;
+    color: #4a4a4a;
+    margin-top: 10%;
+    line-height: 30px;
+}
+
+.heading-2{
+	font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 48px;
+    color: #303030;
+	text-transform:capitalize;
+}
+.container{
+	    margin: auto;
+    max-width: 1320px;
+}
+.maintainence-sec-boxes{
+	width:50%;
+	margin-top:30px;
+	padding-right: 5%;
+	margin-bottom: 45px;
+
+}
+
+.our-web-devlop span{
+
+    color:white;
+}
+.devlopment-service-boxes img {
+    width: 20%;
+}
+.development-features h3{
+	font-size: 20px;
+    font-weight: 500;
+    color: #264360;
+    margin-left: 20px;
+}
+.development-features{
+	display: flex;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+
+}
+.services-features{
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	padding-top: 3%;
+	padding-bottom: 3%;
+}
+.service-icons{
+	display:flex;
+align-items:center;
+margin-bottom: 35px;
+    width: 30%;
+
+}
+.service-icons h3{
+	font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+    color: #264360;
+	
+}
+.service-icons img{
+	padding-right: 28px;
+}
+.title{
+	text-align:center;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+.service-sec{
+	background: #eee; 
+	padding-top: 80px;
+}
+.devlop-methodlogy-sec{
+	margin-top:5%;
+}
+.choose-us-section{
+	padding: 80px 5% 0px;
+}
+.title h2{
+	font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 15px;
+    color: #303030;
+}
+.title p{
+	    font-size: 20px;
+    font-weight: 500;
+    color: #303030;
+}
+
+
+.devlopment-methodlogy h3{
+	font-size: 30px;
+    font-weight: 600;
+    color: #303030;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.devlopment-methodlogy p{
+	    font-size: 16px;
+    color: #6a6a6a;
+    font-weight: 400;
+	padding-right: 15%;
+	
+    text-align: justify;
+
+}
+.devlopment-methodlogy {
+	display:flex;
+	    margin: 10% 0px;
+		align-items:center;
+	
+
+}
+.sub-heading{
+	width:50%;
+}
+.web-develop-image{
+	width:50%;
+}
+
+.why-us {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.why-us-list {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+}
+.why-us-list img {
+    padding-right: 28px;
+}
+.why-us-list h3{
+	font-size: 18px;
+    font-weight: 400;
+    margin-left: 20px;
+    color: #264360;
+}
+.list-bar{
+    margin-top: 30px;
+}
+
+.list-bar li{
+	font-size: 16px;
+    color: #6a6a6a;
+    font-weight: 400;
+	    padding-left: 10px;
+    margin-bottom: 8px;
+	margin-left: 15px;
+
+}
+.maintaince-sec-list{
+	display: flex;
+   flex-wrap: wrap;
+    margin-top: 65px;
+}
+.maintainence-sec-boxes.website-according{
+	width:100%;
+    margin-top:30px;
+}
+.container.service-we-offer{
+    margin-top: 5%;
+}
+.maintainence-sec-boxes h4{
+	font-size: 20px;
+    font-weight: 500;
+    color: #264360;
+}
+.maintainence-sec-boxes p{
+	font-size: 16px;
+    color: #444444;
+    margin-top: 15px;
+	line-height:30px;
+}
+.devlopment-service-offer{
+	display:flex;
+	flex-wrap: wrap;
+	margin-top:8%;
+    justify-content: space-between;
+}
+.services-boxes h3{
+	font-size: 24px;
+    font-weight: 600;
+    color: #303030;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.services-boxes {
+    margin-bottom: 20px;
+}
+.services-boxes p{
+	 font-size: 15px;
+    color: #303030;
+    text-align: justify;
+    line-height: 26px;
+}
+.devlopment-service-boxes{
+	width:47%;
+	margin-bottom: 5rem;
+}
+.business-growth{
+	font-size: 40px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.business-growths{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+.planning-webpage{
+	display:flex;
+	margin-top:50px;
+	align-items:center;
+}
+.planning-webpage h3{
+	font-size: 30px;
+    font-weight: 600;
+    color: #303030;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.planning-webpage p{
+	font-size: 16px;
+    color: #6a6a6a;
+    font-weight: 400;
+    padding-right: 15%;
+    text-align: justify;
+}
+.our-work{
+	font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #303030;
+}
+.get-3month{
+	font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #264360;
+}
+.details-form {
+    margin-bottom: 20px;
+}
+footer.footer-landingpage {
+    padding: 5% 10% 5% 10%;
+}
+.gain-market.upper-footer .gain-market-list-two {
+    padding: 4rem 80px 4rem;
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 767px) {
+	/*webdevelopment-service-page*/
+		.development-services{
+		padding: 20% 5%;
+	}
+.development-services h1 {
+    font-size: 26px;
+    color: #264360;
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding-right: 0px;
+    margin-bottom: 15px;
+}
+
+.development-services h2{
+	font-size:20px;
+}
+
+.development-services p {
+    padding-right: 0px;
+}
+.development-services p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #264360;
+    margin-top: 5%;
+     text-align: justify;
+    padding: 0px 0%;
+}
+.our-web-devlop {
+    display: block;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.paragraph img {
+    margin-left: 0rem;
+    border-radius: 20px;
+    padding: 12px;
+    margin-top: 2rem;
+}
+.paragraph p {
+    margin-bottom: 20px;
+	margin-top: 20px;
+}
+.our-web-devlop h2 {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    text-transform: capitalize;
+    padding: 0px 1rem;
+}
+.paragraph{
+	width:100%;
+	border-left:none; height: auto;
+}
+.paragraph p {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 15px;
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 0px 1rem;
+}
+.choose-us-section{
+	    padding: 50px 1rem 0px;
+}
+.development-services p{
+padding-right:0px;
+}
+.heading-2 {
+	font-size:22px;
+	margin-bottom: 40px;
+	font-weight: 500;
+}
+.service-icons h3{
+	    font-size: 14px;
+}
+.service-icons{
+	width:100%;
+	margin-bottom:20px;
+}
+
+.development-features img{
+	width: 35px;
+    height: 35px;
+}
+.development-features{
+	padding:0px 5%;
+	    margin-bottom: 20px;
+}
+.services-features{
+	display:block;
+}
+.development-features h3{
+	font-size:14px;
+}
+.why-us{
+	display:block;
+}
+.why-us-list{
+	width:100%;
+	margin-bottom:20px;
+}
+.why-us-list h3{
+	font-size:14px;
+}
+.why-us-list img{
+	padding-right:0px;
+}
+.service-sec{
+	    padding: 50px 1rem 3rem;
+    margin-top: 50px;
+    margin-bottom: 40px;	
+}
+.planning-webpage {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column-reverse;
+}
+.service-icons img{
+	padding-right:0px;
+}
+.title h2 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.title p{
+	font-size:16px;
+}
+.devlopment-methodlogy{
+	display:block;
+	margin-top:30px;
+}
+.web-develop-image {
+    width: 100%;
+}
+.web-develop-image img{
+	width:100%;
+}
+.sub-heading {
+    width: 100%;
+}
+.devlopment-methodlogy h3 {
+    font-size: 20px;
+	font-weight: 500;
+}
+.devlopment-methodlogy p {
+    font-size: 14px;
+	padding-right:0px;
+}
+.devlop-methodlogy-sec{
+	padding: 0px 1rem;
+}
+section.maintaince-sec h2 {
+    font-size: 26px;
+    line-height: 28px;
+}
+.maintaince-sec-list{
+	display:block;
+}
+.maintainence-sec-boxes{
+margin-bottom:20px;
+}
+.devlopment-service-offer{
+	display:block;
+		
+}
+.devlopment-service-boxes{
+	width:100%;
+	    margin-bottom: 3rem;
+}
+.maintain-boxes h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #264360;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.maintainence-sec-boxes h4 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #264360;
+}
+.services-boxes p{
+	padding-right:0px;
+	font-size:14px;
+	
+}
+.services-boxes h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.container.service-we-offer {
+    margin-top: 8%;
+    padding: 0px 1rem;
+}
+.title {
+    text-align: initial;
+}
+.title h2 {
+	text-align: initial;
+}
+.our-work {
+	text-align: initial;
+}
+.heading-2{
+	text-align: initial;
+}
+.maintain-boxes {
+    padding-right: 0%;
+}
+.devlopment-service-boxes img {
+    width: 28%;
+}
+.services-boxes h3 {
+    margin-top: 10px;
+}
+.maintainence-sec-boxes{
+	width:100%;
+}
+.planning-webpage p{
+	padding-right:0px;
+	font-size:14px;
+}
+.list-bar li{
+	font-size:14px;
+}
+.maintain-boxes p{
+	font-size:14px;
+	line-height:25px;
+}
+.planning-webpage h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.business-growth{
+	font-size:30px;
+}
+.f2 > div:first-of-type > button{
+	margin-top:50px;
+}
+.maintaince-dev{
+	display:block;
+	    margin-top: 40px;
+}
+.service-img{
+	width:100%;
+	margin-top:5%;
+}
+.service-img img{
+	width:100%;
+}
+.maintain-boxes{
+	width:100%;
+}
+.maintaince-sec-list{
+	margin-top:10px;
+}
+.maintainence-sec-boxes {
+    width: 100%;
+    margin-top: 18px;
+    padding-right: 5%;
+    margin-bottom: 10px;
+}
+.maintainence-sec-boxes p {
+    font-size: 14px;
+    color: #6a6a6a;
+    margin-top: 15px;
+    text-align: justify;
+	line-height:25px;
+}
+.maintaince-sec {
+    padding: 40px 1rem;
+}
+.our-work {
+    font-size: 20px;
+    font-weight: 500;
+}
+.web-dev-service{
+	display:block;
+	height:auto;
+}
+.frame-image{
+	width:100%;
+	left:0px;
+	BACKGROUND:transparent;
+	
+	
+}
+.frame-image{
+	width:100%;
+	left:0px;
+	BACKGROUND:transparent;
+	
+	
+	
+}
+.frame-image img{
+	    width: 100%;
+    margin-left: 0;
+    top: 8px;
+	    position: relative;
+
+
+}
+	.development-services{
+		    padding:20% 5% 5%;
+			width:100%;
+
+}
+.frame-image img{
+	width: 100%;
+    margin-left: 0;
+    top: 7px;
+    position: relative;
+}
+.web-land-list{
+	display:block;
+	height: auto;
+}
+.web-land-ser {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 11rem;
+    padding-top: 20%;
+}
+.frame-img{
+	position:relative;
+	    bottom: -7px;
+    right: 0rem;
+    width: 100%;
+
+}
+	.web-land-ser h1 {
+   font-size: 24px;
+   color: #303030;
+   font-weight: 600;
+   line-height: 30px;
+   padding: 0px 0% 0px 0px;
+}
+.web-land-ser span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    padding: 10px 0% 0px 0px;
+}
+.web-land-ser{
+	padding: 6rem 1rem 0px;
+}
+.web-land-ser p {
+    font-size: 14px;
+    color: #303030;
+    font-weight: 400;
+    padding: 15px 2% 0px 0px;
+}
+.get-start h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #264360;
+    text-transform: capitalize;
+    line-height: 22px;
+}
+.get-start {
+    padding-bottom: 0rem;
+}
+.get-started-btn {
+    padding: 8px 30px;
+    border: 2px solid;
+    color: #264360;
+    font-size: 14px;
+    border-radius: 0px;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    font-weight: 600;
+}
+.free-consulatant button {
+    padding: 10px 35px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+    border: 2px solid;
+    color: #264360;
+    background: transparent;
+    border-radius: 0px;
+    margin-top: 1rem;
+}
+.gain-market.upper-footer .gain-market-list-two {
+    padding: 3rem 20px 1rem;
+    margin-bottom: 0px;
+}
+.gain-market.upper-footer .gain-market-list-two button {
+    font-size: 18px;
+    line-height: 32px;
+    height: 50px;
+    margin-top: 20px;
+}
+.f3.footer-menu-landingpage a {
+    font-size: 14px;
+}
+.f3.footer-menu-landingpage {
+    padding-top: 0px;
+}
+.f3.footer-menu-landingpage h4 {
+    margin-bottom: 8PX;
+}
+.f3.footer-menu-landingpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-bottom-landngpage {
+    width: 50%;
+}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) { 
+/*webdevelopment-service-page*/
+
+	.development-services{
+		    padding:20% 5% 5%;
+			width:100%;
+
+	}
+	.container{
+		 margin:auto;
+		 max-width:720px;
+	 }
+	
+.development-services h1 {
+   font-size: 30px;
+    color: #264360;
+    font-weight: 700;
+    font-family: 'Poppins';
+    padding-right: 0;
+    margin-bottom: 10px;
+
+}
+.choose-us-section {
+    padding: 70px 2rem 25px;
+}
+.our-web-devlop h2{
+	font-size:26px;
+	padding:0px 1%;
+}
+.development-services h2{
+	font-size:22px;
+}
+.development-services p{
+padding-right:0px;
+font-size: 16px;
+}
+.heading-2 {
+	font-size:26px;
+	
+}
+.devlop-methodlogy-sec {
+    margin-top: 5%;
+    padding: 0px 3rem;
+}
+.service-icons h3{
+	    font-size: 16px;
+}
+.service-icons{
+	width:48%;
+	margin-bottom:20px;
+}
+.service-icons img{
+	padding-right:10px;
+}
+.development-features img{
+	width: 35px;
+    height: 35px;
+}
+	.paragraph p {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 12px;
+    padding-left: 25px;
+    font-size: 14px;
+	text-align: justify;
+}
+.our-web-devlop {
+    padding: 5rem 0px 10rem;
+}
+.development-features{
+	padding:0px 5%;
+	    margin-bottom: 20px;
+}
+.services-features{
+	display:flex;
+	padding:0px 1%;
+}
+.development-features h3{
+	font-size:15px;
+}
+.why-us-list{
+	width:50%;
+	margin-bottom:20px;
+}
+.why-us-list img{
+	padding-right:10px;
+}
+.why-us-list h3{
+	font-size:16px;
+}
+.service-sec{
+	    padding: 5rem 0px 0rem;
+}
+.get-start {
+    text-align: center;
+    padding-top: 2rem;
+}
+.get-start {
+    padding-bottom: 2rem;
+}
+.get-start h4{
+	font-size:22px;
+}
+.get-started-btn {
+    padding: 10px 45px;
+    border: 2px solid;
+    color: #264360;
+    font-size: 18px;
+    border-radius: 0px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-weight: 600;
+}
+.free-consulatant button {
+    padding: 14px 50px;
+    font-size: 16px;
+}
+.maintaince-dev {
+    margin-top: 50px;
+}
+.title h2{
+	font-size: 26px;
+	    padding-top: 1rem;
+}
+.maintaince-sec {
+    background: #f5f5f5;
+    padding: 5rem 2rem;
+}
+section.maintaince-sec h2 {
+    font-size: 28px;
+}
+section.maintaince-sec h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.container.service-we-offer {
+    margin-top: 8%;
+	padding:0px 1rem;
+	
+}
+.devlopment-service-boxes {
+    margin-bottom: 3rem;
+}
+.business-growth{
+	font-size:26px;
+}
+.f2 > div > h3 {
+    font-size: 22px;
+	padding: 0px 10rem 0px 0px;
+}
+.f2 > div:first-of-type > button{
+	margin-top:50px;
+}
+.maintain-boxes h3{
+	font-size:22px;
+}
+.planning-webpage h3{
+	font-size:22px;
+}
+.web-land-ser p {
+    font-size: 14px;
+    padding: 28px 30% 0px 0px;
+}
+.title p{
+	font-size:18px;
+}
+.devlopment-methodlogy{
+	display:block;
+	margin-top:50px;
+}
+.sub-heading{
+	width:100%;
+}
+.web-develop-image{
+	width:100%;
+}
+.web-develop-image img{
+	width:100%;
+}
+.devlopment-methodlogy h3{
+	font-size:24px;
+}
+.devlopment-methodlogy p{
+	padding-right:0px;
+}
+.devlopment-service-offer{
+	display:block;
+}
+.devlopment-service-boxes{
+	width:100%;
+}
+
+.services-boxes p{
+	padding-right:0px;
+}
+.services-boxes h3{
+	font-size: 22px;
+}
+.planning-webpage {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column-reverse;
+}
+.planning-webpage p{
+	padding-right:0px;
+}
+.maintaince-dev{
+	display:block;
+}
+.service-img{
+	width:100%;
+	    margin-top: 5%;
+}
+.service-img img{
+	width:100%;
+}
+.maintain-boxes{
+	width:100%;
+}
+.maintaince-sec-list{
+	margin-top:10px;
+}
+.maintainence-sec-boxes {
+    width: 50%;
+    margin-top: 18px;
+    padding-right: 5%;
+    margin-bottom: 10px;
+}
+.our-work{
+	font-size:26px;
+}
+.maintainence-sec-boxes p {
+    font-size: 16px;
+    color: #6a6a6a;
+    margin-top: 15px;
+    text-align: justify;
+}
+.web-dev-service{
+	display:block;
+	height:auto;
+	
+}
+.frame-image{
+	width:100%;
+	left:0px;
+	BACKGROUND:transparent;
+	
+	
+	
+}
+.frame-image img{
+	width: 100%;
+    margin-left: 0;
+    top: 7px;
+    position: relative;
+}
+.web-land-list{
+	display:block;
+	height: auto;
+}
+.web-land-ser {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+       padding-left: 3rem;
+    padding-top: 20%;
+    padding-right: 3rem;
+
+}
+.frame-img{
+	position:relative;
+	    bottom: -7px;
+    right: 0rem;
+    width: 100%;
+
+}
+	.web-land-ser h1 {
+    font-size: 36px;
+    color: #303030;
+    font-weight: 600;
+    line-height: 46px;
+    padding: 0px 5% 0px 0px;
+}
+.web-land-ser span {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 34px;
+    padding: 18px 20% 0px 0px;
+}
+.web-land-ser {
+    padding-left: 0rem;
+    padding-top: 7rem;
+}
+.f3.footer-menu-landingpage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer-bottom-landngpage {
+    width: 50%;
+}
+.f3.footer-menu-landingpage ul {
+    margin-top: 20px;
+}
+.f3.footer-menu-landingpage {
+    padding: 0px;
+}
+.gain-market.upper-footer .gain-market-list-two {
+    padding: 4rem 70px 4rem;
+    margin-bottom: 1px;
+}
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+	 /*webdevelopment-service-page*/
+	 .container{
+		 margin:auto;
+		 max-width:960px;
+	 }
+	 .web-develop-image {
+    width: 60%;
+}
+.web-develop-image img{
+	width:95%;
+}
+.devlopment-methodlogy p{
+	padding-right:0px;
+}
+.devlopment-service-boxes img{
+	width:20%;
+}
+.services-boxes h3{
+	font-size:24px;
+}
+.business-growth {
+	font-size:30px;
+}
+.f2 > div:first-of-type > button{
+    margin-top: 50px;
+}
+.heading-2{
+	font-size:30px;
+}
+.title h2{
+	font-size:30px;
+}
+.frame-img {
+    position: absolute;
+    bottom: 0;
+    right: 0rem;
+    width: 40%;
+}
+.web-land-ser h1 {
+    font-size: 35px;
+    color: #303030;
+    font-weight: 600;
+    line-height: 48px;
+    padding: 0px 7% 0px 0px;
+}
+.web-land-ser span {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+    padding: 25px 5% 0px 0px;
+}
+.web-land-ser p {
+    font-size: 16px;
+    color: #303030;
+    font-weight: 400;
+    padding: 83px 17% 0px 0px;
+}
+.web-land-list {
+    height: 80vh;
+}
+.web-land-ser {
+    padding-left: 2rem;
+}
+.our-web-devlop h2 {
+    font-size: 34px;
+    padding: 0px 4%;
+}
+.our-development .paragraph {
+    width: 50%;
+    border-left: 2px solid white;
+    height: 425px;
+}
+}
+ @media screen  and (min-width: 1200px)  and (max-width: 1366px) {
+	 /*webdevelopment-service-page*/
+	 .container{
+		 margin:auto;
+		 max-width:1140px;
+	 }
+	 .web-develop-image img{
+		width:80%;
+	}
+	.devlopment-service-boxes img{
+		width:20%;
+	}
+	.frame-img {
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+    width: 40%;
+}
+.web-land-list{
+	height:auto;
+}
+.web-land-ser h1 {
+    font-size: 35px;
+    color: #303030;
+    font-weight: 600;
+    line-height: 50px;
+    padding: 17% 17% 0px 0px;
+}
+.web-land-ser span {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 38px;
+    padding: 25px 32% 0px 0px;
+}
+.frame-img {
+    position: absolute;
+    bottom: 0;
+    right: 5rem;
+    width: 32%;
+}
+.web-land-ser p {
+    font-size: 16px;
+    color: #303030;
+    font-weight: 400;
+    padding: 29px 44% 35px 0px;
+}
+.web-land-ser{
+	    padding-left: 11rem;
+}
+section.web-land-mh .container {
+    margin: auto;
+    max-width: max-content;
+}
+.our-web-devlop h2 {
+    font-size: 34px;
+    padding: 0px 3%;
+}
+ }
+  @media screen  and (min-width: 1367px)  and (max-width: 1600px) { 
+  
+   /*webdevelopment-service-page*/
+	 .container{
+		 margin:auto;
+		 max-width:1170px;
+	 }
+     .web-develop-image img{
+		width:80%;
+	}
+	.devlopment-service-boxes img{
+		width:20%;
+	}
+	.frame-img {
+    position: absolute;
+    bottom: 0;
+    right: 10rem;
+    width: 40%;
+}
+.rect {
+    width: 38%;
+    display: flex;
+    flex-wrap: wrap;
+    background: #ff6319;
+    height: 100vh;
+}
+.web-land-ser h1 {
+    font-size: 35px;
+    color: #303030;
+    font-weight: 600;
+    line-height: 48px;
+    padding: 20% 26% 0px 0px;
+}
+.web-land-ser span {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 38px;
+    padding: 25px 35% 0px 0px;
+}
+.web-land-mh .container {
+    margin: auto;
+    max-width: max-content;
+}
+.our-web-devlop h2 {
+    font-size: 38px;
+    padding: 0px 3%;
+}
+}
+ @media screen  and (min-width: 1601px) {
+	 section.web-land-mh .container {
+    margin: auto;
+    max-width: max-content;
+}
+.frame-img {
+    right: 5rem;
+}  
+	 
+ }
+  @media screen  and (min-width: 1920px) {
+    	.frame-img {
+    right: 20rem;
+}
+    
+  }
+  /*sahil edit 11-03-2022*/
+  #webdev-getfree{
+      background-color: #303030;
+      padding:10px 15px;
+      border:none;
+      outline:none;
+      color:white;
+      cursor:pointer;
+  }
